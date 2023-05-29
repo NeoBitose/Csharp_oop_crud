@@ -16,3 +16,8 @@ C:\Users\Neo_Bitose\source\repos\OOP_TM\OOP_TM\obj\Debug\net6.0-windows\OOP_TM.p
 C:\Users\Neo_Bitose\source\repos\OOP_TM\OOP_TM\obj\Debug\net6.0-windows\OOP_TM.genruntimeconfig.cache
 C:\Users\Neo_Bitose\source\repos\OOP_TM\OOP_TM\obj\Debug\net6.0-windows\ref\OOP_TM.dll
 C:\Users\Neo_Bitose\source\repos\OOP_TM\OOP_TM\obj\Debug\net6.0-windows\OOP_TM.FormDataBaru.resources
+C:\Users\Neo_Bitose\source\repos\OOP_TM\OOP_TM\obj\Debug\net6.0-windows\OOP_TM.DataMahasiswa.resources
+C:\Users\Neo_Bitose\source\repos\OOP_TM\OOP_TM\obj\Debug\net6.0-windows\OOP_TM.Properties.Resources.resources
+C:\Users\Neo_Bitose\source\repos\OOP_TM\OOP_TM\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Neo_Bitose\source\repos\OOP_TM\OOP_TM\bin\Debug\net6.0-windows\Npgsql.dll
+C:\Users\Neo_Bitose\source\repos\OOP_TM\OOP_TM\obj\Debug\net6.0-windows\OOP_TM.csproj.CopyComplete

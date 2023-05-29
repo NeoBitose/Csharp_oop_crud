@@ -28,9 +28,9 @@ namespace OOP_TM
         public void SetComboBoxProdi()
         {
             List<Prodi> listProdi = new List<Prodi>();
-            listProdi.Add(new Prodi() { KdProdi = "10", NamaProdi = "Sistem Informasi" });
-            listProdi.Add(new Prodi() { KdProdi = "20", NamaProdi = "Teknologi Informasi" });
-            listProdi.Add(new Prodi() { KdProdi = "30", NamaProdi = "Informatika" });
+            listProdi.Add(new Prodi() { KdProdi = "1010", NamaProdi = "Sistem Informasi" });
+            listProdi.Add(new Prodi() { KdProdi = "2010", NamaProdi = "Teknologi Informasi" });
+            listProdi.Add(new Prodi() { KdProdi = "3010", NamaProdi = "Informatika" });
 
             cbProdi.DataSource = listProdi;
             cbProdi.ValueMember = "KdProdi";
@@ -55,7 +55,22 @@ namespace OOP_TM
             newMahasiswa.IsActive = cekbStatus.Checked;
 
             return newMahasiswa;
+        }
 
+        public Models.Mhs GetMahasiswaNew()
+        {
+            Models.Mhs newMahasiswa = new Models.Mhs();
+
+            newMahasiswa.Nim = tbNim.Text;
+            newMahasiswa.Nama = tbNama.Text;
+            newMahasiswa.Alamat = tbAlamat.Text;
+            newMahasiswa.TglLahir = DateOnly.Parse(dtpTgl.Value.ToShortDateString());
+            newMahasiswa.KdProdi = ((Prodi)cbProdi.SelectedItem).KdProdi;
+            newMahasiswa.NamaProdi = ((Prodi)cbProdi.SelectedItem).NamaProdi;
+            newMahasiswa.UKT = decimal.Parse(tbUkt.Text);
+            newMahasiswa.IsActive = cekbStatus.Checked;
+
+            return newMahasiswa;
         }
     }
 }
